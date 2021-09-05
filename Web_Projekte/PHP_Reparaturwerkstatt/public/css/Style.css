@@ -1,0 +1,16 @@
+
+.bodyContact {
+  background: url("../Pictures/Bild_09.JPG") no-repeat center center fixed;
+  background-position: bottom center;
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+}
+
+
+.screenSize{
+  height: 99.8vh;
+  width: 100%;
+  max-width: 1250px;
+  object-fit: cover;
+}

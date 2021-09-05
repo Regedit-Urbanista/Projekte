@@ -1,0 +1,106 @@
+/* Hintergrund Bild wird gesetzt */
+.bodyProjektarbeit ul.nav-pills div.col-8 div{
+  position: relative;
+  top: 20px;
+  position: fixed; 
+  height: 500px;
+}
+
+
+.bodyHome {
+  background: url("../Pictures/Bild_09.JPG") no-repeat center center fixed;
+  background-position: bottom center; 
+	background-repeat: no-repeat; 
+	background-size:cover; 
+	background-attachment:fixed;
+}
+    .bodyHistory {
+  background: url("../Pictures/Bild_04.JPG") no-repeat center center fixed;
+  background-position: bottom center; 
+  background-repeat: no-repeat; 
+  background-size:cover; 
+  background-attachment:fixed;
+    }
+.bodyContact {
+  background: url("../Pictures/Bild_08.JPG") no-repeat center center fixed;
+  background-position: bottom center; 
+	background-repeat: no-repeat; 
+	background-size:cover; 
+	background-attachment:fixed;
+}
+
+.bodyLogin {
+  background: url("../Pictures/Bild_11.JPG") no-repeat center center fixed;
+  background-position: bottom center; 
+  background-repeat: no-repeat; 
+  background-size:cover; 
+  background-attachment:fixed;
+}
+
+
+/* Obere Leiste Wird gesetzt mit Farben */
+.NavabarColor {
+  background: linear-gradient(to right, #1b1b1a, #2c2b2b);
+}
+
+footer {
+  background: linear-gradient(to right, #111110, #131111);
+}
+
+
+.carousel-item {
+  
+  background: no-repeat center center scroll;
+  background-position: bottom center; 
+  background-repeat: no-repeat; 
+  background-size:cover; 
+  background-attachment:fixed;
+}
+
+.screenSize{
+  height: 99.8vh;
+  width: 100%;
+  object-fit: cover;
+}
+/* Home Scroll Feld */
+ul.nav-pills {
+  top: 345px;
+  position: fixed;
+}
+/* Neuer Abschnitt der zum Text gehört über  der Slide show*/
+
+/* Eigenschaftet des Text auf der Slide show */
+.main-text {
+  position: absolute;
+  top: 200px;
+  width: 100%;
+  color: rgb(255, 255, 255);
+
+  text-shadow:  
+     1px  1px 2px black,
+     1px -1px 2px black,
+    -1px  1px 2px black,
+    -1px -1px 2px black;
+ 
+  }
+.carousel-btns {
+  margin-top: 2em; 
+}
+.carousel-btns .btn {
+width: 150px;
+}
+
+/* Scrollspy Farben werden gesetzt */
+.ScrollspyColor{
+  color: #212120!important;
+}
+/* beide tags sind relevant */
+.active.ScrollspyColor{
+  background-color: #212120!important;
+  color: #ffffff!important;
+}
+
+.HistoryShadow {
+	font-family: 'Courier New', Courier, monospace;
+	text-shadow: 0 0 10px rgb(65, 52, 52), 0 0 20px #1f2425, 0 0 30px #0f1e22, 0 0 40px #495658, 0 0 50px #182325, 0 0 60px #0d282e, 0 0 70px #1a2629;
+}
